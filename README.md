@@ -1,5 +1,5 @@
 # map_scan
-Using ray-cast to generate virtual LaserScan data in given map, only work for 2D robot.
+Using ray-cast to generate virtual LaserScan data in given map, only work for 2D mobile robot.
 
 # Instructions
 map_scan is a ros package which implements `ray-cast` to generate virtual `LaserScan` data in given map. It's very appriciated that the [amcl](https://github.com/ros-planning/navigation.git) had implemented the beam ray-cast wonderfully. And in this package, it will use the beam ray-cast provided by amcl and just modify it a little.
@@ -17,7 +17,7 @@ New a folder as your workspace. Below is the example.
 ## step 2
 Pull down the code to your workspace.
 ```Shell
-> git clone 
+> git clone https://github.com/hefvcjm/map_scan.git
 ```
 
 ## Step 3
