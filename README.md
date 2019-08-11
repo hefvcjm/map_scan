@@ -33,7 +33,7 @@ If you have sussecced to compile the code. Congratulations. And you can run the 
 > roslaunch map_scan test.launch
 ```
 And you can see something like below.  
-![screenshot/virtual_scan_test.png](screenshot)
+![screenshot](screenshotvirtual_scan_test.png)
 
 # API
 
