@@ -1,0 +1,7 @@
+# laser pose
+geometry_msgs/Pose2D pose
+# scan contain laser info
+sensor_msgs/LaserScan scan
+---
+# virtual laser scan
+sensor_msgs/LaserScan scan

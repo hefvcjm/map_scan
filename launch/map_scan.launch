@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="map_scan" type="map_scan_node" name="map_scan" output="screen"/>
+
+</launch>
