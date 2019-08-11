@@ -33,7 +33,9 @@ If you have sussecced to compile the code. Congratulations. And you can run the 
 > roslaunch map_scan test.launch
 ```
 And you can see something like below.  
-![screenshot](https://github.com/hefvcjm/map_scan/raw/master/screenshot/virtual_scan_test.png)
+![screenshot](https://github.com/hefvcjm/map_scan/raw/master/screenshot/virtual_scan_test.png)  
+The arrow is the virtual-laser pose. And the green bound is the visualization of the LaserScan data.
+
 # API
 
 ## Services Called
@@ -42,5 +44,5 @@ map_scan calls this service to retrieve the map that is used for virtual-laser-b
 
 ## Services
 map_scan([map_scan/GetMapScan](https://github.com/hefvcjm/map_scan/blob/master/srv/GetMapScan.srv))  
-Service to get the virtual-laser-scan in the map given the pose and the info of the virtual-laser.
+Service to get the virtual-laser-scan in the map given the pose and the info of the virtual-laser. 
 
